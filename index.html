@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101923">
+<title>فرض محال | جهان مشترک</title>
+<style>
+:root{--bg:#0b121a;--panel:#131f2b;--panel2:#1a2937;--line:#293b4b;--txt:#eef4f7;--muted:#9aabb8;--green:#36c99a;--gold:#f0c56b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,#20384a 0,#0b121a 48%);color:var(--txt);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+.wrap{max-width:1050px;margin:auto;padding:18px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.brand{font-size:25px;font-weight:900}.sub{color:var(--muted);font-size:12px}.pill{border:1px solid var(--line);border-radius:30px;padding:6px 12px;color:var(--green);font-size:12px}
+h1{font-size:clamp(24px,5vw,40px);line-height:1.4;margin:24px 0 5px}.lead{color:var(--muted);margin:0 0 20px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.card,.panel{background:linear-gradient(145deg,#172634,#111c27);border:1px solid var(--line);border-radius:18px;padding:15px}.stat small{color:var(--muted)}.stat b{display:block;font-size:22px;margin-top:3px}
+.grid{display:grid;grid-template-columns:1.3fr .7fr;gap:14px;margin-top:14px}.panel h2{font-size:18px;margin:0 0 8px}.map{min-height:275px;position:relative;overflow:hidden;background:linear-gradient(145deg,#173b43,#142c3b 55%,#17283a);border-radius:14px;border:1px solid #31515a}
+.continent{position:absolute;background:#557b63;border:2px solid #719477;opacity:.9;filter:drop-shadow(0 5px 5px #081018);border-radius:48% 35% 55% 38%;transform:rotate(-18deg)}
+.c1{width:26%;height:36%;top:17%;left:13%}.c2{width:19%;height:48%;top:39%;left:39%;transform:rotate(20deg)}.c3{width:29%;height:25%;top:20%;left:58%;transform:rotate(12deg)}.c4{width:14%;height:18%;top:70%;left:72%;transform:rotate(-10deg)}
+.maplabel{position:absolute;bottom:10px;right:12px;font-size:11px;color:#dce9e3;background:#0b1820bb;padding:5px 9px;border-radius:8px}
+.dot{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 5px #f0c56b33}.d1{top:29%;left:26%}.d2{top:54%;left:48%}.d3{top:31%;left:70%}
+.vote-option{display:block;width:100%;text-align:right;background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:11px;margin:9px 0;font:inherit;cursor:pointer}.vote-option:hover{border-color:var(--green)}.vote-option:disabled{opacity:.7;cursor:default}.bar{height:7px;background:#263746;border-radius:20px;overflow:hidden;margin-top:6px}.bar span{display:block;height:100%;background:var(--green);width:0}
+.note{font-size:11px;color:var(--muted);margin-top:10px}.news{border-right:3px solid var(--gold);padding:8px 12px;background:#1a2937;border-radius:8px;margin-top:10px}
+footer{color:var(--muted);font-size:11px;text-align:center;padding:22px 5px}
+@media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.map{min-height:235px}.wrap{padding:13px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><div><div class="brand">فرض محال <span style="color:var(--green)">●</span></div><div class="sub">جهان مشترک؛ سرنوشتی با انتخاب مردم</div></div><div class="pill">نسخه نمایشی ۰.۱</div></header>
+  <h1>جهان از تصمیم‌های ما ساخته می‌شود.</h1>
+  <p class="lead">به نخستین فصل شبیه‌ساز جهانی خوش آمدی. اینجا هر انتخاب، می‌تواند مسیر آینده را تغییر دهد.</p>
+  <section class="stats">
+    <div class="card stat"><small>جمعیت جهان</small><b>۲٫۴ میلیارد</b></div>
+    <div class="card stat"><small>خزانه جهانی</small><b>۹۵٫۷ میلیارد</b></div>
+    <div class="card stat"><small>ذخیره غذا</small><b>۴۲٫۱ میلیون تُن</b></div>
+    <div class="card stat"><small>رضایت عمومی</small><b>۶۸٪</b></div>
+  </section>
+  <main class="grid">
+    <section class="panel">
+      <h2>نقشه جهان</h2>
+      <div class="map" role="img" aria-label="نقشه نمایشی قاره‌های جهان بازی">
+        <div class="continent c1"></div><div class="continent c2"></div><div class="continent c3"></div><div class="continent c4"></div>
+        <i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i>
+        <div class="maplabel">نقشه مفهومی — مرزها و کشورها هنوز ساخته نشده‌اند</div>
+      </div>
+      <div class="news"><b>خبر فوری جهان</b><br>گزارش‌های اولیه از کاهش ذخایر آب در چند منطقه حکایت دارد. شورای جهانی باید تصمیم بگیرد.</div>
+    </section>
+    <section class="panel">
+      <h2>نخستین تصمیم مردم</h2>
+      <p style="margin:0;color:var(--muted);font-size:13px">بودجه تازه جهان به کدام بخش اختصاص پیدا کند؟</p>
+      <button class="vote-option" data-vote="water">💧 مدیریت آب و ساخت شبکه‌های آبرسانی</button>
+      <button class="vote-option" data-vote="food">🌾 کشاورزی و افزایش تولید غذا</button>
+      <button class="vote-option" data-vote="health">🏥 بهداشت و درمان عمومی</button>
+      <button class="vote-option" data-vote="energy">⚡ انرژی پاک و زیرساخت برق</button>
+      <div id="result" hidden>
+        <p style="font-size:13px;margin:12px 0 4px">نتیجه رأی‌های ثبت‌شده روی همین دستگاه:</p>
+        <div id="bars"></div>
+      </div>
+      <p class="note">این نسخه فقط نمونه اولیه است: رأی‌ها فعلاً روی همین دستگاه ذخیره می‌شوند و هنوز بین کاربران مختلف جمع نمی‌شوند.</p>
+    </section>
+  </main>
+  <section class="panel" style="margin-top:14px">
+    <h2>قوانین جهان مشترک</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;color:var(--muted);font-size:13px">
+      <div>🌍 تصمیم‌های عمومی با رأی مردم گرفته می‌شوند.</div>
+      <div>📊 هر تصمیم باید روی شاخص‌های جهان اثر بگذارد.</div>
+      <div>📰 اتفاقات و نتایج در سایت و اینستاگرام منتشر می‌شوند.</div>
+    </div>
+  </section>
+  <footer>فرض محال © جهان داستانی و شبیه‌سازی‌شده است. اعداد و نقشه این نسخه صرفاً نمایشی‌اند.</footer>
+</div>
+<script>
+const options=[["water","مدیریت آب"],["food","کشاورزی"],["health","بهداشت"],["energy","انرژی پاک"]];
+const key="farzmahal_demo_votes_v1";
+let votes=JSON.parse(localStorage.getItem(key)||"{}");
+function render(){
+ const total=Object.values(votes).reduce((a,b)=>a+b,0);
+ if(!total)return;
+ document.getElementById("result").hidden=false;
+ document.getElementById("bars").innerHTML=options.map(([id,label])=>{
+  const n=votes[id]||0,p=Math.round(n/total*100);
+  return `<div style="font-size:12px;margin:9px 0">${label} — ${p}% <div class="bar"><span style="width:${p}%"></span></div></div>`;
+ }).join("");
+}
+document.querySelectorAll("[data-vote]").forEach(btn=>{
+ btn.addEventListener("click",()=>{
+  const id=btn.dataset.vote;
+  votes[id]=(votes[id]||0)+1;
+  localStorage.setItem(key,JSON.stringify(votes));
+  document.querySelectorAll("[data-vote]").forEach(b=>b.disabled=true);
+  btn.textContent="✓ رأی آزمایشی شما ثبت شد";
+  render();
+ });
+});
+render();
+</script>
+</body>
+</html>
