@@ -18,24 +18,24 @@
 <section class="panel"><h2>تصمیم امروز</h2><div class="decision"><div class="date" id="decisionDate">در انتظار ثبت تصمیم روز اول</div><h3 id="decisionTitle">اولین تصمیم جهان هنوز اعلام نشده</h3><p id="decisionText">رأی‌گیری در صفحه اینستاگرام فرض محال انجام می‌شود. نتیجه نهایی پس از پایان رأی‌گیری در این بخش ثبت خواهد شد.</p></div><div class="notice">رأی‌گیری داخل استوری‌های اینستاگرام انجام می‌شود؛ این سایت محل مشاهده وضعیت جهان و نتایج تصمیم‌هاست، نه محل ثبت رأی.</div></section>
 <section class="panel"><h2>قوانین پایه جهان</h2><div class="rules"><div class="rule"><b>حکومت مستقیم مردم</b><span>همه شرکت‌کنندگان در تصمیم‌های عمومی حق رأی برابر دارند.</span></div><div class="rule"><b>اکثریت آرا</b><span>گزینه دارای بیشترین رأی برنده تصمیم روز می‌شود.</span></div><div class="rule"><b>یک تصمیم در روز</b><span>هر روز یک موضوع اصلی برای رأی‌گیری مطرح می‌شود.</span></div><div class="rule"><b>جمعیت بر پایه فالوور</b><span>هر دنبال‌کننده صفحه معادل یک نفر از جمعیت جهان است.</span></div></div></section>
 </main><aside>
-<section class="panel"><h2>وضعیت تمدن</h2><div class="rows"><div class="rowitem"><span>واحد پول</span><b id="currency">تعریف نشده</b></div><div class="rowitem"><span>قانون اساسی</span><b id="constitution">وجود ندارد</b></div><div class="rowitem"><span>سطح فناوری</span><b id="technology">آغازین</b></div><div class="rowitem"><span>اقتصاد</span><b id="economy">شکل نگرفته</b></div><div class="rowitem"><span>منابع طبیعی</span><b id="resources">ناشناخته</b></div><div class="rowitem"><span>محیط زیست</span><b id="environment">دست‌نخورده</b></div></div></section>
+<section class="panel"><h2>وضعیت تمدن</h2><div class="rows"><div class="rowitem"><span>واحد پول</span><b id="currency">در انتظار رأی مردم</b></div><div class="rowitem"><span>خزانه جهان</span><b id="treasury">۰</b></div><div class="rowitem"><span>پول در گردش</span><b id="circulation">۰</b></div><div class="rowitem"><span>قیمت کالاها</span><b id="prices">تعیین نشده</b></div><div class="rowitem"><span>قانون اساسی</span><b id="constitution">وجود ندارد</b></div><div class="rowitem"><span>سطح فناوری</span><b id="technology">آغازین</b></div><div class="rowitem"><span>اقتصاد</span><b id="economy">شکل نگرفته</b></div><div class="rowitem"><span>منابع طبیعی</span><b id="resources">ناشناخته</b></div><div class="rowitem"><span>محیط زیست</span><b id="environment">دست‌نخورده</b></div></div><p class="muted">سامانه پولی هنوز فعال نشده است؛ نام و قواعد پول با رأی شهروندان تعیین خواهد شد.</p></section>
 <section class="panel"><h2>تاریخچه جهان</h2><div class="timeline" id="history"><div class="event"><b>روز صفر — سیاره خالی</b><p>هیچ انسان، کشور، شهر یا قانونی وجود ندارد.</p></div><div class="event"><b>قانون جمعیت ثبت شد</b><p>هر دنبال‌کننده صفحه، یک نفر به جمعیت شبیه‌سازی‌شده اضافه می‌کند.</p></div><div class="event"><b>حکومت مستقیم تصویب شد</b><p>تصمیم‌های جهان با رأی اکثریت شرکت‌کنندگان گرفته می‌شود.</p></div></div></section>
 <section class="panel"><h2>شرکت در ساخت جهان</h2><p class="muted">برای پیشنهاد تصمیم‌ها و شرکت در رأی‌گیری روزانه، صفحه اینستاگرام پروژه را دنبال کن.</p><a id="instagramLink" href="https://www.instagram.com/" target="_blank" rel="noopener">رفتن به اینستاگرام ↗</a></section></aside></div>
-<footer>فرض محال · جهان با تصمیم‌های جمعی ساخته می‌شود · نسخه نمایشی ۲</footer></div>
+<footer>فرض محال · جهان با تصمیم‌های جمعی ساخته می‌شود · نسخه نمایشی ۳ · اقتصاد در انتظار رأی</footer></div>
 <script>
 /* تنظیمات جهان: بعد از هر رأی‌گیری، این بخش را ویرایش و در GitHub ثبت کن. */
 const WORLD={
  planetName:"جهان صفر",
  followers:0, // تعداد واقعی فالوورها؛ هر فالو = یک نفر
  day:1,countries:0,cities:0,
- currency:"تعریف نشده",constitution:"وجود ندارد",technology:"آغازین",economy:"شکل نگرفته",resources:"ناشناخته",environment:"دست‌نخورده",
+ currency:"در انتظار رأی مردم",treasury:0,circulation:0,prices:"تعیین نشده",constitution:"وجود ندارد",technology:"آغازین",economy:"شکل نگرفته",resources:"ناشناخته",environment:"دست‌نخورده",
  decision:{date:"در انتظار ثبت تصمیم روز اول",title:"اولین تصمیم جهان هنوز اعلام نشده",result:"رأی‌گیری در صفحه اینستاگرام فرض محال انجام می‌شود. نتیجه نهایی پس از پایان رأی‌گیری در این بخش ثبت خواهد شد."},
  history:[]
 };
 const fa=n=>Number(n).toLocaleString("fa-IR");
 document.getElementById("planetTitle").textContent=WORLD.planetName;
 document.getElementById("population").textContent=fa(WORLD.followers);
-["countries","cities","day","currency","constitution","technology","economy","resources","environment"].forEach(k=>document.getElementById(k).textContent=typeof WORLD[k]==="number"?fa(WORLD[k]):WORLD[k]);
+["countries","cities","day","currency","treasury","circulation","prices","constitution","technology","economy","resources","environment"].forEach(k=>document.getElementById(k).textContent=typeof WORLD[k]==="number"?fa(WORLD[k]):WORLD[k]);
 ["date","title","result"].forEach((k,i)=>document.getElementById(["decisionDate","decisionTitle","decisionText"][i]).textContent=WORLD.decision[k]);
 if(WORLD.history.length){const el=document.getElementById("history");el.innerHTML="";WORLD.history.forEach(x=>{const d=document.createElement("div");d.className="event";const b=document.createElement("b");b.textContent=x.title;const p=document.createElement("p");p.textContent=x.text;d.append(b,p);el.append(d);});}
 </script></body></html>
